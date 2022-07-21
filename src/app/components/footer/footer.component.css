@@ -1,0 +1,42 @@
+.row{
+  background: transparent;
+  width: 100%;
+  }
+  footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px transparent;
+  }
+
+  @media screen and (max-width: 1000px){
+footer{
+  margin-left: 7%;
+}
+ }
+
+
+  @media screen and (max-width: 635px) {
+    .row{
+  margin-left: 30%;
+    }
+  }
+
+
+    @media screen and (max-width: 500px){
+      .row{
+        margin-left: 50%;
+          }
+        }
+
+
+
+
+
+    @media screen and (max-width: 450px) {
+      .row{
+        margin-left: 65%;
+          }
+    }

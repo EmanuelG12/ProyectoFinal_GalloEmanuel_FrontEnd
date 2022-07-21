@@ -1,0 +1,233 @@
+img{
+  height: 45%;
+  width: 20%;
+  margin-top: 8%;
+  margin-left: 60%;
+  position:absolute;
+  border-radius: 25px;
+  border: 3px solid #868686 ;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  margin-top: 100px;
+  margin-left: 90px;
+  font-size: 70px;
+}
+
+h3{
+  color: white;
+  font-family: sans-serif;
+  margin-top: 45px;
+  margin-left: 90px;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 3px solid rgb(226, 223, 27);
+  width: 16%;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+body{
+  margin-top: 120px;
+  margin-left: 300px;
+  display: flex;
+  height: 70%;
+  width: 26%;
+  place-items: center;
+  background: transparent;
+}
+
+
+.redes{
+  display: inline-flex;
+}
+
+.redes .icon {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.redes .icon a{
+  position: relative;
+  color: #454546;
+  height: 60px;
+  width: 60px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0, 0, 0,0.1);
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.redes .icon:hover a{
+  color: #ffff;
+}
+
+
+.redes .icon .fuente{
+  position: absolute;
+  top: 0px;
+  background-color: #fff;
+  color: #ffff;
+  font-size: 20px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+
+.redes .icon:hover .fuente{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.redes .icon .fuente:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.redes .icon:hover a,
+.redes .icon:hover .fuente{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+
+.redes .twitter:hover a,
+.redes .twitter:hover .fuente,
+.redes .twitter:hover .fuente:before{
+  background: #46C1F6;
+}
+
+.redes .instagram:hover a,
+.redes .instagram:hover .fuente,
+.redes .instagram:hover .fuente:before{
+  background: #E1306C;
+}
+
+.redes .linkedin:hover a,
+.redes .linkedin:hover .fuente,
+.redes .linkedin:hover .fuente:before{
+   background: #0e76a8;
+}
+
+.redes .github:hover a,
+.redes .github:hover .fuente,
+.redes .github:hover .fuente:before{
+  background: #171515;
+}
+
+.redes .whatsapp:hover a,
+.redes .whatsapp:hover .fuente,
+.redes .whatsapp:hover .fuente:before{
+   background: #00bb2d;
+}
+
+
+@media screen and (max-width: 1000px){
+  img{
+    margin-left: 60%;
+    margin-top: 10%;
+    width: 40%;
+  }
+  h3{
+  width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+img{
+  margin-left: 80%;
+  margin-top: 25%;
+  height: 30%;
+  width: 30%;
+}
+
+h3{
+  width: 20%;
+}
+
+.redes{
+  margin-left: -10%;
+}
+}
+
+@media screen and (max-width: 635px) {
+  img{
+    margin-left: 110%;
+    margin-top: 25%;
+    height: 30%;
+    width: 42%;
+  }
+  h1{
+    font-size: 500%;
+  }
+  h3{
+    width: 50%;
+  }
+  }
+
+  @media screen and (max-width: 500px){
+    img{
+      margin-left: 130%;
+      margin-top: 40%;
+      height: 50%;
+      width: 50%;
+    }
+    h1{
+      font-size: 500%;
+    }
+    h3{
+      width: 50%;
+    }
+
+  }
+
+
+
+  @media screen and (max-width: 450px) {
+    img{
+      margin-left: 150%;
+      margin-top: 40%;
+      height: 50%;
+      width: 80%;
+    }
+    h1{
+      font-size: 500%;
+    }
+    h3{
+      width: 70%;
+    }
+    .redes{
+      margin-left: 40%;
+      margin-top: -80%;
+    }
+
+    }
