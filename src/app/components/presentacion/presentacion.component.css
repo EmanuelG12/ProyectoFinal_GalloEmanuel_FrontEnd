@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  border: 0;
+}
 img{
   height: 45%;
   width: 20%;
@@ -150,84 +154,145 @@ body{
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1270px){
   img{
-    margin-left: 60%;
-    margin-top: 10%;
+    width:30%
+  }
+}
+
+@media screen and (max-width: 1024px){
+  img{
+    width: 30%;
+    height: 40%;
+  }
+  h3{
     width: 40%;
   }
-  h3{
-  width: 40%;
-  }
 }
-
-
-@media screen and (max-width: 800px) {
-img{
-  margin-left: 80%;
-  margin-top: 25%;
-  height: 30%;
-  width: 30%;
-}
-
-h3{
-  width: 20%;
-}
-
-.redes{
-  margin-left: -10%;
-}
-}
-
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 950px){
   img{
-    margin-left: 110%;
-    margin-top: 25%;
-    height: 30%;
-    width: 42%;
-  }
-  h1{
-    font-size: 500%;
+    margin-left: 65%;
   }
   h3{
-    width: 50%;
+    width: 40%;
   }
+  .redes{
+    margin-left: -20%;
+  }
+}
+
+@media screen and (max-width: 875px){
+  h1{
+    margin-left: 3%;
+  }
+  img{
+    width: 32%;
+    height: 35%;
+  }
+  .redes{
+    margin-left: -80%;
+  }
+}
+
+@media screen and (max-width: 680px){
+  h1{
+    width: 60%;
+    margin-top: 0%;
+  }
+  img{
+    margin-top: 38%;
+    width: 30%;
+    height: 30%;
+  }
+  .redes{
+    margin-left: -120%;
   }
 
-  @media screen and (max-width: 500px){
-    img{
-      margin-left: 130%;
-      margin-top: 40%;
-      height: 50%;
-      width: 50%;
+  @media screen and (max-width: 625px){
+    .redes{
+      margin-left: -150%;
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 587px){
+    .redes{
+      margin-left: -180%;
+    }
+  }
+  @media screen and (max-width: 560px){
+    .redes{
+      margin-left: -200%;
     }
     h1{
-      font-size: 500%;
+     font-size: 400%;
     }
-    h3{
-      width: 50%;
-    }
-
   }
-
-
-
-  @media screen and (max-width: 450px) {
-    img{
-      margin-left: 150%;
-      margin-top: 40%;
-      height: 50%;
-      width: 80%;
-    }
+  @media screen and (max-width: 550px){
     h1{
-      font-size: 500%;
+      width: 100%;
+      text-align: center;
+      }
+
+      img{
+        width: 60%;
+        margin-top: 55%;
+        margin-left: 25%;
+      }
+      h3{
+        margin-top: 80%;
+        width: 80%;
+        text-align: center;
+        margin-left: 15%;
+      }
+  }
+  }
+  @media screen and (max-width: 523px){
+    .redes{
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: -900%;
+      margin-left: -210%;
+
+    }
+    img{
+      margin-top: 60%;
     }
     h3{
-      width: 70%;
+      margin-top: 75%;
+    }
+    @media screen and (max-width: 485px){
+      .redes{
+        margin-left: -230%;
+        margin-top: -640%;
+      }
+    }
+    @media screen and (max-width: 452px){
+      .redes{
+        margin-left: -260%;
+        margin-top: -680%;
+      }
+    }
+    @media screen and (max-width: 437px){
+     h1{
+      font-size: 340%;
+     }
+      img{
+        margin-top: 60%;
+      }
     }
     .redes{
-      margin-left: 40%;
-      margin-top: -80%;
+      margin-top: -600%;
     }
-
+    .h3{
+      margin-top: 120%;
     }
+    @media screen and (max-width: 417px){
+      .redes{
+        margin-left: -280%;
+        margin-top: -700%;
+      }
+      img{
+        margin-top: 75%;
+      }
+    }
+  }

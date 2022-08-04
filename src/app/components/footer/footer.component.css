@@ -3,6 +3,7 @@
   width: 100%;
   }
   footer{
+    width: 100%;
     color: #fefefe;
     font-size: 14px;
     display: flex;
@@ -12,23 +13,23 @@
   }
 
   @media screen and (max-width: 1000px){
-footer{
-  margin-left: 7%;
-}
+    .row{
+      text-align: center;
+         }
  }
 
 
   @media screen and (max-width: 635px) {
     .row{
-  margin-left: 30%;
+ text-align: center;
     }
   }
 
 
     @media screen and (max-width: 500px){
       .row{
-        margin-left: 50%;
-          }
+        text-align: center;
+           }
         }
 
 
@@ -37,6 +38,6 @@ footer{
 
     @media screen and (max-width: 450px) {
       .row{
-        margin-left: 65%;
-          }
+        text-align: center;
+           }
     }

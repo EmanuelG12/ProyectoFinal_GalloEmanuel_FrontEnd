@@ -1,14 +1,21 @@
 <nav>
            <a href="#0">Presentacion</a>
            <a href="#1">Sobre Mi</a>
-           <a href="#2">Educacion y Experiencia</a>
+           <a href="#2">Experiencia laboral</a>
            <a href="#3">HYS</a>
-            <button>
+            <button (click)="login()" *ngIf="!isLogged">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               INGRESAR
+            </button>
+            <button (click)="onLogOut()" *ngIf="isLogged">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              CERRAR SESION
             </button>
 
 <img src="../../../assets/Logos/APLogo.png" >

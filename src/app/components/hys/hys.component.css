@@ -50,34 +50,21 @@ h1{
   @media screen and (max-width: 635px) {
     h1{
       text-align: center;
-      width: 50%;
-      margin-left: 60%;
+      width: 100%;
+      margin-left: 0%;
     }
     .row{
-      width: 120%;
-      margin-left: 25%;
+      width: 100%;
+    align-items: center;
      }
     }
 
 
     @media screen and (max-width: 500px){
-h1{
-  margin-left: 85%;
-}
+
 .row{
-  margin-left: 50%;
+  align-items: center;
+  width: 100%;
 }
-        }
+}
 
-
-
-
-
-    @media screen and (max-width: 450px) {
-      h1{
-        margin-left: 95%;
-      }
-      .row{
-        margin-left: 60%;
-      }
-    }
