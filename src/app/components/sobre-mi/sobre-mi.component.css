@@ -5,7 +5,7 @@ h2{
   margin-top: 25%;
   font-size: 60px;
   border-radius: 10px;
-  border: 3px solid rgb(226, 223, 27);
+  border: 3px solid #000;
   width: 15%;
 }
 
@@ -19,7 +19,7 @@ p{
   padding: 2px;
   border: 3px solid;
   border-radius: 10px;
-  border: 3px solid rgb(226, 223, 27);
+  border: 3px solid #000;
 }
 
 #pc{
